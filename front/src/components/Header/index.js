@@ -33,9 +33,8 @@ const Header = () => {
             </TopHead>
             <BotHead>
                 <Menu>
-                    <Item>Reais</Item>
-                    <Item>Fakes</Item>
-                    <Item>Perfis</Item>
+                    <Item onClick={ ()=> {window.location = '/'} }>Home</Item>
+                    <Item onClick={ ()=> {window.location = '/about'} }>Sobre</Item>
                 </Menu>
             </BotHead>
         </div>
