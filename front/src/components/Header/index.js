@@ -35,6 +35,7 @@ const Header = () => {
                 <Menu>
                     <Item>Reais</Item>
                     <Item>Fakes</Item>
+                    <Item>Perfis</Item>
                 </Menu>
             </BotHead>
         </div>
