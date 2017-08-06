@@ -8,12 +8,13 @@ import { syncHistoryWithStore, routerReducer } from 'react-router-redux'
 import Home from './components/Home'
 import Groups from './components/Groups'
 
-import reducers from './reducers'
+import profile from './reducers'
 
+import './index.css'
 // Add the reducer to your store on the `routing` key
 const store = createStore(
   combineReducers({
-    ...reducers,
+    ...profile,
     routing: routerReducer
   })
 )
