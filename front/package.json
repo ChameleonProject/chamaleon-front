@@ -4,8 +4,13 @@
   "private": true,
   "dependencies": {
     "react": "^15.6.1",
+    "react-bootstrap": "^0.31.2",
     "react-dom": "^15.6.1",
-    "react-scripts": "0.9.5"
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "0.9.5",
+    "recharts": "^0.22.4",
+    "redux": "^3.7.2",
+    "styled-components": "^2.1.2"
   },
   "devDependencies": {},
   "scripts": {
